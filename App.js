@@ -2,7 +2,7 @@ import 'react-native-gesture-handler';
 import React, {useState, useEffect, useMemo} from 'react';
 import './src/config/ConfigFirebase';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
-import { LogBox, StatusBar } from 'react-native';
+import{ LogBox, StatusBar } from 'react-native';
 import Loading from './src/components/AppLoading';
 import { Asset } from 'expo-asset';
 import AppLoading from 'expo-app-loading';
