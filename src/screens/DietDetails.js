@@ -12,7 +12,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { HTMLStyles } from '../config/HTMLStyles';
 import { HTMLStylesDark } from '../config/HTMLStylesDark';
 import HTMLView from 'react-native-render-html';
-import usePreferences from '../hooks/usePreferences';
+import usePreferences  from '../hooks/usePreferences';
 
 export default function DietDetails(props) {
 
